@@ -87,7 +87,7 @@ dt, dd, .title, .minimalizuj, #poziom-glosnosci, .info { background-color: #4a52
 
 html, body { height: 100%; }
 
-body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; cursor: default; }
+body { user-select: none; cursor: default; }
 
 button, #panel-nagrywania li, #suwak { cursor: pointer; }
 
